@@ -44,7 +44,7 @@ https://cdn.discordapp.com/attachments/1022177084396806154/1022183057219919982/d
 __**Folder structure**__
 extract all contents of the archive directly on the USB's 2. partition (I: drive)
 so that it looks something like this
-[image](https://cdn.discordapp.com/attachments/1022177084396806154/1022185130309197854/unknown.png)
+![](https://cdn.discordapp.com/attachments/1022177084396806154/1022185130309197854/unknown.png)
 
 [setupFiles.zip](https://cdn.discordapp.com/attachments/990019603780497448/1036781307818147890/setupFiles.zip)
 
