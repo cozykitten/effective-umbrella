@@ -43,7 +43,7 @@ This applies to the entire drive you're going to install Windows on, other drive
         2. however there **should not** be any further primary partitions, that would indicate that there is more than one Volume on this drive (the C: or D: ...etc drive you see in File Explorer), in that case hit ``ctrl + c`` to cancel and don't continue.
 
     6. After confirming that this is indeed the drive you want to wipe and install windows on, the script will do its thing, it'll take about 1 minute
-    7. It will reboot, if you didn't choose your old windows drive for windows 11 you need to hold down F8 again, only for this first boot though.
+    7. It will reboot. If you didn't choose your old windows drive for windows 11 you need to hold down F8 again and select your target drive, only for this first boot though.
 
 3. Windows OOBE and Audit
     1. After the first reboot out of WinPE it might reboot another 1-2 times, you don't need to press anything tho, after that you will see the first start windows thing (Out Of the Box Experience), but ignore that for now.
