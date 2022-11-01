@@ -15,7 +15,7 @@
 
 2. Applying the image
     1. the script will ask you to select a drive to install windows on. It will show you the drives in your pc but their size is pretty much the only indicator you have to find your Windows drive.<br/>
-    2. If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive
+    If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive
 
     3. after selecting the drive it will also show you the partitions on it. If your target drive is your old windows drive, there should be at minimum
         - **one 100mb partition labled "System"**
