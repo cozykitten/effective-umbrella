@@ -117,3 +117,5 @@ Download and save to ``2_Logon\9_oosu10``
 ### notepad++
 Go to https://notepad-plus-plus.org/downloads/ and download the zip option, unpack it ("extract to..." instead of "extract here" there are loose files inside).<br/>
 You can rename it to something easier, notepad++ f.e. then just move it on your usb drive.
+
+
