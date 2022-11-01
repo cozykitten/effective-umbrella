@@ -58,7 +58,7 @@ close the window and now the sxs folder should be there and contain the netfx fi
     - in ``toolkit`` folder start the ``start.cmd`` file, it'll give you an admin prompt
     - type [a], then when on the main menu select [1] - [1]
     - Index should only be 1, then choose no for boot and winre
-    - the [msmg-toolkit textfile](https://github.com/cozykitten/effective-umbrella/blob/main/msmg-toolkit.txt) contains a list of components that can be removed
+    - please refer to the [msmg-toolkit textfile](https://github.com/cozykitten/effective-umbrella/blob/main/msmg-toolkit.txt). It contains a list of components that can be removed
 
     after selecting all elements, go back one -> [2] start removing windows components
     - this will take ~3 minutes. It's important to wait until it finished removing components before continuing
