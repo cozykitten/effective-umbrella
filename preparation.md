@@ -99,7 +99,7 @@ Once download finishes check the following checkboxes:<br/>
 
 
 ### Sophia
-Go to https://github.com/farag2/Sophia-Script-for-Windows/releases and at the bottom of most recent entry, expand the "Assets" section.<br/>
+Go to https://github.com/farag2/Sophia-Script-for-Windows/releases and at the bottom of the most recent entry, expand the "Assets" section.<br/>
 Download both ``Sophia.Script.for.Windows.11.vx.xx.x.zip`` and ``Sophia.Script.Wrapper.vx.x.x.zip ``<br/>
 ``save: somewhere on your computer, not the USB drive``
 
