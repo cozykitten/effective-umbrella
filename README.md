@@ -14,7 +14,8 @@
     - It's important to wait until the toolkit finished removing the components before continuing
     - once the toolkit is done, paste (by right clicking) the following commands into the newly opened terminal, in this case it is fine to copy line breaks and you'll see what it does
 
-    - ```    dism /image:.\1 /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2
+    - ```cmd
+    - dism /image:.\1 /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2
     dism /image:.\1 /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2Root
     dism /image:.\1 /Disable-Feature /FeatureName:Printing-PrintToPDFServices-Features
     echo.
