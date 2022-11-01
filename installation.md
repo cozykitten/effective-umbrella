@@ -28,11 +28,11 @@ This applies to the entire drive you're going to install Windows on, other drive
     4. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
     5. Change the directory to I:\ with ``pushd I:``
     6. Type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
-    7. Hit enter, this will run the install script
+    7. Hit enter, this will run the install script.
 
 2. Applying the image
     1. The script will ask you to select a drive to install windows on. It will show you the drives in your pc but their size is pretty much the only indicator you have to find your Windows drive.<br/>
-    If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive
+    If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive.
 
     3. after selecting the drive it will also show you the partitions on it. If your target drive is your old windows drive, there should be at minimum
         - one **100mb** partition labled **"System"**
@@ -42,7 +42,7 @@ This applies to the entire drive you're going to install Windows on, other drive
         1. there might also be a ~500mb Recovery partition
         2. however there **should not** be any further primary partitions, that would indicate that there is more than one Volume on this drive (the C: or D: ...etc drive you see in File Explorer), in that case hit ``ctrl + c`` to cancel and don't continue.
 
-    6. After confirming that this is indeed the drive you want to wipe and install windows on, the script will do its thing, it'll take about 1 minute
+    6. After confirming that this is indeed the drive you want to wipe and install windows on, the script will do its thing, it'll take about 1 minute.
     7. It will reboot. If you didn't choose your old windows drive for windows 11 you need to hold down F8 again and select your new Windows drive from the list, only for this first boot though.
 
 3. Windows OOBE and Audit
