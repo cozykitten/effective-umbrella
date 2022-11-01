@@ -1,5 +1,6 @@
 <style type="text/css">
     ol { list-style-type: upper-alpha; }
+    ol ol { list-style-type: lower-alpha; }
 </style>
 
 ## Preparation
