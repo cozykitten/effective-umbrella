@@ -13,14 +13,14 @@ Once in Windows we can install drivers and basic components set some privacy stu
 and of course windows will want to reboot a few times after its driver installations and updates.
 
 
-## Warning
+### Warning
 If you are unsure about the layout of your drives you should take a look in disk management now, check which drive you want to wipe and use for windows, what partitions are on there, if you have any other volumes besides C: on this drive, etc.
 
 Generally I'd recommend to install Windows on a entirely separate / new drive or one that is completely empty so you still have your current Windows drive and can access it from the new installation and copy files and settings.<br/>
 For the next steps it is assumed that you have completed all necessary preparations, such as backed up your data, settings, logins, etc.<br/>
 This applies to the entire drive you're going to install Windows on, other drives are't affected, however all partition on that drive are, so f.e. if you have a C: and D: partition both on your Windows drive, they would both be affected.
 
-
+### Steps
 1. Booting WinPE
     1. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.
     2. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
