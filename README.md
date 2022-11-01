@@ -57,7 +57,7 @@ If there is no text file just run whatever is in the given folder normally (just
 
 
 
-__**Latest runtime & C++ libraries**__
+### Latest runtime & C++ libraries
 VC_redist:
 https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
 first section: Visual Studio 2015, 2017, 2019, and 2022 
@@ -65,6 +65,7 @@ architecture: x86 and x64
 save both: ``1_Audit\4_VC_Redist&dotNetRuntime\``
 
 dotNET runtimes:
+
 https://dotnet.microsoft.com/en-us/download
 download .NET Runtime: run desktop apps
 architecture: x86 and x64
