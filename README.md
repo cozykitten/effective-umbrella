@@ -1,29 +1,13 @@
 ## Preparation
 
-6. Toolkit time. ``toolkit\DVD\sources`` folder should contain install.wim, boot.wim, sxs folder with one or two something_netfx3_something files inside
-    - in ``toolkit`` folder start the ``start.cmd`` file, it'll give you an admin prompt
-    - type [a], then when on the main menu select [1] - [1]
-    - Index should only be 1, then choose no for boot and winre
-    - the [msmg-toolkit textfile](https://github.com/cozykitten/effective-umbrella/blob/main/msmg-toolkit.txt) contains a list of components that can be removed
-
-    after selecting all elements, go back one -> [2] start removing windows components
-    - this will take ~3 minutes. It's important to wait until it finished removing components before continuing
-    - go to ``toolkit\Mount\Install``. Now you should see a folder "1". Don't open it.
-    - copy the path in the explorer address bar (smth like ``C:\toolkit\Mount\Install``)
-    - open a terminal as admin, then change the directory with ``pushd`` then right click to paste the path
-    - It's important to wait until the toolkit finished removing the components before continuing
-    - once the toolkit is done, paste (by right clicking) the following commands into the newly opened terminal, in this case it is fine to copy line breaks and you'll see what it does
-        ```cmd
-        dism /image:.\1 /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2
-        dism /image:.\1 /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2Root
-        dism /image:.\1 /Disable-Feature /FeatureName:Printing-PrintToPDFServices-Features
-        echo.
-        ```
-    - now go back to the toolkit's window, return to it's main menu, from there choose [5] Apply -> [1] Cleanup
-    - when done, from main menu choose [2] Integrate -> [3] Windows Features -> [A] .NET Framework 3.5
-    - and finally [5] Apply -> [2] Apply and choose "yes" when it asks you to clean up, we're done with this so take a break if you want, it'll cleanup for about 5 minutes
-    - choose the quit option from the main menu
-
+1. Booting WinPE
+   a. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.
+   b. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
+   c. You should see your usb there, actually two times. Select it's partition 1.
+   d. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
+   e. change the directory to I:\ with ``pushd I:``
+   f. type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
+   e. hit enter, this will run the install script
 
 This will only cover the preparation and install of Windows, not possible steps such as backing up your previous installation, choosing and managing your drives.<br/>
 It is assumed that you have already covered those and are ready to install windows and wiping your target drive doesn't pose any issue for you.
