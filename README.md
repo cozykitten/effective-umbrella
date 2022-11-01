@@ -5,29 +5,26 @@
 
 1. Booting WinPE
     1. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.
-        2. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
-        3. You should see your usb there, actually two times. Select it's partition 1.
-        4. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
-        - change the directory to I:\ with ``pushd I:``
-        - type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
-        - hit enter, this will run the install script
+    2. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
+    3. You should see your usb there, actually two times. Select it's partition 1.
+    4. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
+    5. change the directory to I:\ with ``pushd I:``
+    6. type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
+    7. hit enter, this will run the install script
 
 2. Applying the image
-    - the script will ask you to select a drive to install windows on. It will show you the drives in your pc but their size is pretty much the only indicator you have to find your Windows drive.
-    - If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive
+    1. the script will ask you to select a drive to install windows on. It will show you the drives in your pc but their size is pretty much the only indicator you have to find your Windows drive.
+    2. If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive
 
-    - after selecting the drive it will also show you the partitions on it. If your target drive is your old windows drive, there should be at minimum
-        - **one 100mb partition labled "System"**
-        - **one 16 or 128mb partition labled "Reserved"**
-        - **one partition as big as the rest of your drive labled "Primary"**
-    - there might also be a ~500mb Recovery partition
-    - however there **should not** be any further primary partitions, that would indicate that there is more than one Volume on this drive (the C: or D: ...etc drive you see in File Explorer), in that case hit ``ctrl + c`` to cancel and don't continue.
+    3. after selecting the drive it will also show you the partitions on it. If your target drive is your old windows drive, there should be at minimum
+    - **one 100mb partition labled "System"**
+    - **one 16 or 128mb partition labled "Reserved"**
+    - **one partition as big as the rest of your drive labled "Primary"**
+    4. there might also be a ~500mb Recovery partition
+    5. however there **should not** be any further primary partitions, that would indicate that there is more than one Volume on this drive (the C: or D: ...etc drive you see in File Explorer), in that case hit ``ctrl + c`` to cancel and don't continue.
 
-    - after confirming that this is indeed the drive you want to wipe and install windows on the script will do its thing, it'll take about 1 minute
-    - It will reboot, if you didn't choose your old windows drive for windows 11 you need to hold down F8 F8 again, only for this first boot though.
-
-This will only cover the preparation and install of Windows, not possible steps such as backing up your previous installation, choosing and managing your drives.<br/>
-It is assumed that you have already covered those and are ready to install windows and wiping your target drive doesn't pose any issue for you.
+    6. after confirming that this is indeed the drive you want to wipe and install windows on the script will do its thing, it'll take about 1 minute
+    7. It will reboot, if you didn't choose your old windows drive for windows 11 you need to hold down F8 F8 again, only for this first boot though.
 
 __source:__<br/>
 https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions<br/>
