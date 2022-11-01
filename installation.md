@@ -20,7 +20,7 @@ Generally I'd recommend to install Windows on a entirely separate / new drive or
 For the next steps it is assumed that you have completed all necessary preparations, such as backed up your data, settings, logins, etc.<br/>
 This applies to the entire drive you're going to install Windows on, other drives are't affected, however all partition on that drive are, so f.e. if you have a C: and D: partition both on your Windows drive, they would both be affected.
 
-### Steps
+### Getting Started
 1. Booting WinPE
     1. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.
     2. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
