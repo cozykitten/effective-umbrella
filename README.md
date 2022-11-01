@@ -1,19 +1,17 @@
-# effective-umbrella
-
 ## Preparation
 
-This will only cover the preparation and install of Windows, not possible steps such as backing up your previous installation, choosing and managing your drives.
+This will only cover the preparation and install of Windows, not possible steps such as backing up your previous installation, choosing and managing your drives.<br/>
 It is assumed that you have already covered those and are ready to install windows and wiping your target drive doesn't pose any issue for you.
 
 __source:__<br/>
 https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions
 https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-system-and-recovery-partitions
 
+<br/><br/>
 
+### WinPE
 
-__**WinPE**__
-
-1. Download and install both the Windows ADK and the Windows PE Add-on. When you install the ADK choose, at minimum, the Deployment Tools feature.
+1. Download and install both the Windows ADK and the Windows PE Add-on. When you install the ADK choose, at minimum, the Deployment Tools feature.<br/>
 https://go.microsoft.com/fwlink/?linkid=2196127
 https://go.microsoft.com/fwlink/?linkid=2196224
 
@@ -40,7 +38,7 @@ Makewinpemedia /ufd C:\WinPE_amd64 P:
 
 
 
-**__Install script__**
+### Install script
 download this and save it on your USB's "Image" partition (probably drive letter I:)
 https://cdn.discordapp.com/attachments/1022177084396806154/1022183057219919982/dism_installer.bat
 
