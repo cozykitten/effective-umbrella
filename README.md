@@ -41,6 +41,7 @@ download [dism_installer](https://raw.githubusercontent.com/cozykitten/effective
 
 ### Folder structure
 download [setupFiles.zip](https://cdn.discordapp.com/attachments/990019603780497448/1036781307818147890/setupFiles.zip) and extract all contents of the archive directly on the USB's 2. partition (I: drive), so that it looks something like this
+
 ![](https://cdn.discordapp.com/attachments/1022177084396806154/1022185130309197854/unknown.png)
 
 There are text files with more detailed step by step instructions inside each folder so read them first before running any files inside.
