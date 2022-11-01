@@ -1,3 +1,7 @@
+<style type="text/css">
+    ol { list-style-type: upper-alpha; }
+</style>
+
 ## Preparation
 
 1. Booting WinPE<br/>
