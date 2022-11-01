@@ -11,6 +11,8 @@ https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-an
 
 
 
+
+
 __**WinPE**__
 
 1. Download and install both the Windows ADK and the Windows PE Add-on. When you install the ADK choose, at minimum, the Deployment Tools feature.
