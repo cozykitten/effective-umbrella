@@ -10,7 +10,7 @@
   4. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
     - change the directory to I:\ with ``pushd I:``
     - type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
-    - hit enter, this will run the install scriptl script
+    - hit enter, this will run the install script
 
 2. Applying the image
     - the script will ask you to select a drive to install windows on. It will show you the drives in your pc but their size is pretty much the only indicator you have to find your Windows drive.
