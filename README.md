@@ -2,8 +2,8 @@
 ### aka a setup bundle for Windows 11
 <br/>
 
-I. Preparation | Get all the files you need sorted out
+I. [Preparation](https://github.com/cozykitten/effective-umbrella/blob/main/preparation.md) | Get all the files you need sorted out
 
-II. Get Windows | Prepare the Windows Image
+II. [Get Windows](https://github.com/cozykitten/effective-umbrella/blob/main/get_windows.md) | Prepare the Windows Image
 
-III. Installation | Install Windows & setting up
+III. [Installation](https://github.com/cozykitten/effective-umbrella/blob/main/installation.md) | Install Windows & setting up
