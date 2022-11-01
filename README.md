@@ -15,14 +15,14 @@
 
 2. Applying the image
     1. the script will ask you to select a drive to install windows on. It will show you the drives in your pc but their size is pretty much the only indicator you have to find your Windows drive.
-    2. If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive
+        2. If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive
 
     3. after selecting the drive it will also show you the partitions on it. If your target drive is your old windows drive, there should be at minimum
-        - **one 100mb partition labled "System"**
-        - **one 16 or 128mb partition labled "Reserved"**
+            - **one 100mb partition labled "System"**
+            - **one 16 or 128mb partition labled "Reserved"**
             - **one partition as big as the rest of your drive labled "Primary"**
-    4. there might also be a ~500mb Recovery partition
-    5. however there **should not** be any further primary partitions, that would indicate that there is more than one Volume on this drive (the C: or D: ...etc drive you see in File Explorer), in that case hit ``ctrl + c`` to cancel and don't continue.
+        4. there might also be a ~500mb Recovery partition
+        5. however there **should not** be any further primary partitions, that would indicate that there is more than one Volume on this drive (the C: or D: ...etc drive you see in File Explorer), in that case hit ``ctrl + c`` to cancel and don't continue.
 
     6. after confirming that this is indeed the drive you want to wipe and install windows on the script will do its thing, it'll take about 1 minute
     7. It will reboot, if you didn't choose your old windows drive for windows 11 you need to hold down F8 F8 again, only for this first boot though.
