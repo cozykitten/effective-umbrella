@@ -1,6 +1,6 @@
 ## Preparation
 
-1. Booting WinPE
+1. Booting WinPE<br/>
    a. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.<br/>
    b. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.<br/>
    c. You should see your usb there, actually two times. Select it's partition 1.
