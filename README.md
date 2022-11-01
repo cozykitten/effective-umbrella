@@ -9,8 +9,7 @@ __source:__
 https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions
 https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-system-and-recovery-partitions
 
-&NewLine;
-&NewLine;
+<br/><br/>
 
 __**WinPE**__
 
