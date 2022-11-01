@@ -60,4 +60,4 @@ This applies to the entire drive you're going to install Windows on, other drive
 
 - Notepad++
     - You can move the notepad++ folder somewhere on your computer, your desktop f.e. to make it more accessible later.
-    - When you later need to read / check some .bat or .ps1 script files, open notepad++.exe from that folder and drag the files in the editor, it makes them a lot more readable.
+    - When you need to read / check some .bat or .ps1 script files, open notepad++.exe from that folder and drag the files in the editor, it makes them a lot more readable.
