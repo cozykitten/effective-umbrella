@@ -7,7 +7,6 @@
     - the [msmg-toolkit textfile](https://github.com/cozykitten/effective-umbrella/blob/main/msmg-toolkit.txt) contains a list of components that can be removed
 
 after selecting all elements, go back one -> [2] start removing windows components
-
     - this will take ~3 minutes. It's important to wait until it finished removing components before continuing
     - go to ``toolkit\Mount\Install``. Now you should see a folder "1". Don't open it.
     - copy the path in the explorer address bar (smth like ``C:\toolkit\Mount\Install``)
@@ -16,10 +15,12 @@ after selecting all elements, go back one -> [2] start removing windows componen
     - once the toolkit is done, paste (by right clicking) the following commands into the newly opened terminal, in this case it is fine to copy line breaks and you'll see what it does
 
 ```cmd
+
 dism /image:.\1 /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2
 dism /image:.\1 /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2Root
 dism /image:.\1 /Disable-Feature /FeatureName:Printing-PrintToPDFServices-Features
 echo.
+
 ```
 
     - now go back to the toolkit's window, return to it's main menu, from there choose [5] Apply -> [1] Cleanup
