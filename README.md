@@ -5,13 +5,11 @@
 This will only cover the preparation and install of Windows, not possible steps such as backing up your previous installation, choosing and managing your drives.
 It is assumed that you have already covered those and are ready to install windows and wiping your target drive doesn't pose any issue for you.
 
-__source:__\n
+__source:__<br/>
 https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/configure-uefigpt-based-hard-drive-partitions
 https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-and-apply-windows-system-and-recovery-partitions
 
-<br/><br/>
-
-__**WinPE**__
+__**WinPE**__<br/>
 
 1. Download and install both the Windows ADK and the Windows PE Add-on. When you install the ADK choose, at minimum, the Deployment Tools feature.
 https://go.microsoft.com/fwlink/?linkid=2196127
