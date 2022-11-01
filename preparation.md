@@ -90,10 +90,10 @@ This is just to get your display drivers running so setting up windows isn't a p
 Tho it has everything for playing and whatever you want, this is all you need if you don't use GFE / Shadow Play.
 
 Once download finishes check the following checkboxes:<br/>
-"disable installer telemetry and advertising" .. probably doesn't make a difference since you're not connected to the internet when you install them anyway.<br/>
-"show expert tweaks"<br/>
-"enable Message Signaled Interrupts" -> "All Processors in Machine" & "High"<br/>
-"Disable HDCP"<br/>
+- "disable installer telemetry and advertising" .. probably doesn't make a difference since you're not connected to the internet when you install them anyway.<br/>
+- "show expert tweaks"<br/>
+- "enable Message Signaled Interrupts" -> "All Processors in Machine" & "High"<br/>
+- "Disable HDCP"<br/>
 
 "Next", then select "build package" and save it on your usb drive ``2_Logon\2_Drivers_pt1\``
 
