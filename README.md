@@ -21,8 +21,8 @@
             - **one 100mb partition labled "System"**
             - **one 16 or 128mb partition labled "Reserved"**
             - **one partition as big as the rest of your drive labled "Primary"**
-        4. there might also be a ~500mb Recovery partition
-        5. however there **should not** be any further primary partitions, that would indicate that there is more than one Volume on this drive (the C: or D: ...etc drive you see in File Explorer), in that case hit ``ctrl + c`` to cancel and don't continue.
+        1. there might also be a ~500mb Recovery partition
+        2. however there **should not** be any further primary partitions, that would indicate that there is more than one Volume on this drive (the C: or D: ...etc drive you see in File Explorer), in that case hit ``ctrl + c`` to cancel and don't continue.
 
     6. after confirming that this is indeed the drive you want to wipe and install windows on the script will do its thing, it'll take about 1 minute
     7. It will reboot, if you didn't choose your old windows drive for windows 11 you need to hold down F8 F8 again, only for this first boot though.
