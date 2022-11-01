@@ -3,20 +3,15 @@
     ol ol { list-style-type: lower-alpha; }
 </style>
 
-1. Booting WinPE
-    1. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.
-    2. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
+4. In Windows (**2_Logon** Folder)
+    1. After rebooting from Audit mode you're back in OOBE, click through it until it asks you to create your user account.
+    2. When it shows no connection and only a "retry" button, click that (~5 times) until it offers you to create a local account instead of a microsoft account.
+    3. Then you might see a black screen for a while, that's just Windows setting up your user account, it'll take ~3 mins
+    4. Now you're actually in Windows, open File Explorer to Folder 2 (2_Logon) and start with those in order.
 
-    1. You should see your usb there, actually two times. Select it's partition 1.
-    2. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
-    3. change the directory to I:\ with ``pushd I:``
-    4. type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
-    5. hit enter, this will run the install script
-
-2. Applying the image
-    1. The script will ask you to select a drive to install windows on. It will show you the drives in your pc but their size is pretty much the only indicator you have to find your Windows drive.<br/>
-    If you are unsure about which drive is the one you want to install windows on, now you can still go back and boot normally instead of selecting your usb drive
-
+4.1. Notepad++
+    - You can move the notepad++ folder somewhere on your computer, your desktop f.e. to make it more accessible later.
+    - When you later need to read / check some .bat or .ps1 script files, open notepad++.exe from that folder and drag the files in the editor, it makes them a lot more readable.
     3. after selecting the drive it will also show you the partitions on it. If your target drive is your old windows drive, there should be at minimum
         - one **100mb** partition labled **"System"**
         - one **16 or 128mb** partition labled **"Reserved"**
