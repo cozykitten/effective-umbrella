@@ -46,7 +46,7 @@ download [setupFiles.zip](https://github.com/cozykitten/effective-umbrella/raw/m
 
 Those folders and their contens are meant for later, so don't run anything now.<br/>
 There are text files with more detailed step by step instructions inside each folder so read them first before running any files inside.<br/>
-This will include some copy and pasting of commands and for that:
+This will include some copy and pasting of commands and for that keep the following in mind:
 
 When marking commands to copy them stop immediately after the last character to avoid slipping into the next line.<br/>
 Pasting a line break at the end of a command is equivalent to hitting enter to execute it immediately.
