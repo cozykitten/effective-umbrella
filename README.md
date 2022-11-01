@@ -22,9 +22,7 @@ dism /image:.\1 /Disable-Feature /FeatureName:Printing-PrintToPDFServices-Featur
 echo.
 
 ```
-
-some text
-    - now go back to the toolkit's window, return to it's main menu, from there choose [5] Apply -> [1] Cleanup
+   - now go back to the toolkit's window, return to it's main menu, from there choose [5] Apply -> [1] Cleanup
     - when done, from main menu choose [2] Integrate -> [3] Windows Features -> [A] .NET Framework 3.5
     - and finally [5] Apply -> [2] Apply and choose "yes" when it asks you to clean up, we're done with this so take a break if you want, it'll cleanup for about 5 minutes
     - choose the quit option from the main menu
