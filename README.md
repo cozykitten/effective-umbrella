@@ -34,8 +34,6 @@ Start the Deployment and Imaging Tools Environment as an administrator. (just us
 copype amd64 C:\WinPE_amd64
 Makewinpemedia /ufd C:\WinPE_amd64 P:
 ```
-
-
 <br/>
 
 ### Install script
