@@ -47,7 +47,7 @@ Those two steps will result in a cleaner and smaller image which can then be ins
     - then in the first sources folder (the one in ``win11``), there should be a folder called "sxs"
     - move the entire "sxs" folder inside the toolkit's sources folder as well, it should contain one or two files with "netfx3" in their names, delete any other files if there are any
 
-**extra: if the last step worked skip this**
+**extra: if the last step worked skip this**<br/>
 in case the sxs folder doesn't exist or is empty, run the ``convert-UUP.cmd`` again and pay attention to its window.<br/>
 it will say something like "creating setup files"<br/>
 and once that is complete it will say "creating install.wim" or "creating install image" or something<br/>
