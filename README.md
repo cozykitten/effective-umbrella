@@ -40,7 +40,8 @@ download [dism_installer](https://raw.githubusercontent.com/cozykitten/effective
 
 
 ### Folder structure
-download [setupFiles.zip](https://cdn.discordapp.com/attachments/990019603780497448/1036781307818147890/setupFiles.zip) and extract all contents of the archive directly on the USB's 2. partition (I: drive), so that it looks something like this:<br/>
+download [setupFiles.zip](https://cdn.discordapp.com/attachments/990019603780497448/1036781307818147890/setupFiles.zip) and extract all contents of the archive directly on the USB's 2. partition (I: drive), so that it looks something like this:
+
 ![](https://cdn.discordapp.com/attachments/1022177084396806154/1022185130309197854/unknown.png)
 
 There are text files with more detailed step by step instructions inside each folder so read them first before running any files inside.<br/>
@@ -104,7 +105,8 @@ Download both ``Sophia.Script.for.Windows.11.vx.xx.x.zip`` and ``Sophia.Script.W
 Open up both archives after extraction, they'll each contain one folder.<br/>
 Extract each folder into ``2_Logon\3_Sophia\``, next to the 3 files already present.<br/>
 If everything is right it should now look like this and inside both folders should be some subfolders and a file or two.<br/>
-Move the presets (such as ``minimal.ps1``) inside the "Sophia Script" folder.<br/>
+Move the presets (such as ``minimal.ps1``) inside the "Sophia Script" folder.
+
 ![](https://cdn.discordapp.com/attachments/1022177084396806154/1022196377482166272/unknown.png)
 
 
