@@ -4,10 +4,10 @@
 </style>
 
 1. Booting WinPE
-  1. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.
-  2. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
-  3. You should see your usb there, actually two times. Select it's partition 1.
-  4. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
+        1. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.
+        2. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
+		3. You should see your usb there, actually two times. Select it's partition 1.
+		4. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
     - change the directory to I:\ with ``pushd I:``
     - type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
     - hit enter, this will run the install script script
