@@ -33,6 +33,7 @@ Those two steps will result in a cleaner and smaller image which can then be ins
     - move the "depends_win.ps1" from inside the ``win11\files`` folder into the ``win11`` folder, then right click and "run with powershell"
     - go in the ``win11\files`` folder, open  the "uup-converter-wimlib.7z" archive and extract all contents in the ``win11`` folder
     - download [win11.zip](https://github.com/cozykitten/effective-umbrella/raw/main/win11.zip) and extract the files in the ``win11`` folder as well, let them overwrite existing files
+    - rename the AppList you prefer to "CustomAppsList.txt", and tweak it to your liking or just use it as it is.
     - right click -> edit "uup_download_windows.cmd", hit ``ctrl + f`` and search for "Extracting UUP converter" ".\files\depends_win.ps1"
     - delete the group of 2 lines containing the searched term
     - a few lines below should be a group starting with "echo Extracting UUP converter..."
