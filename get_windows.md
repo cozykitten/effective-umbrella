@@ -20,7 +20,7 @@ Those two steps will result in a cleaner and smaller image which can then be ins
     - select Windows 11 - 22H2
     - click the topmost "Windows 11, version 22H2" which has x64 as architecture
     - select the language you want -> next
-    - only check windows home -> next 
+    - only check windows home (or pro or whatever your license is for) -> next 
     - keep the middle radio button selected (download and convert to ISO)
     - uncheck all checkboxes below, including "single language" -> create download package
     - save it somewhere and extract all contents into the ``windows_prep\win11`` folder
