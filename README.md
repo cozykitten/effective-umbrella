@@ -9,7 +9,6 @@ https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/capture-an
 
 
 ### WinPE
-
 1. Download and install both the Windows ADK and the Windows PE Add-on. When you install the ADK choose, at minimum, the Deployment Tools feature.<br/>
 https://go.microsoft.com/fwlink/?linkid=2196127
 https://go.microsoft.com/fwlink/?linkid=2196224
@@ -35,18 +34,14 @@ copype amd64 C:\WinPE_amd64
 Makewinpemedia /ufd C:\WinPE_amd64 P:
 ```
 
+
 ### Install script
-download this and save it on your USB's "Image" partition (probably drive letter I:)
-https://cdn.discordapp.com/attachments/1022177084396806154/1022183057219919982/dism_installer.bat
+download [dism_installer](https://raw.githubusercontent.com/cozykitten/effective-umbrella/main/dism_installer.bat) and save it on your USB's "Image" partition (probably drive letter I:)
 
 
-
-__**Folder structure**__
-extract all contents of the archive directly on the USB's 2. partition (I: drive)
-so that it looks something like this
+### Folder structure
+download [setupFiles.zip](https://cdn.discordapp.com/attachments/990019603780497448/1036781307818147890/setupFiles.zip) and extract all contents of the archive directly on the USB's 2. partition (I: drive), so that it looks something like this
 ![](https://cdn.discordapp.com/attachments/1022177084396806154/1022185130309197854/unknown.png)
-
-[setupFiles.zip](https://cdn.discordapp.com/attachments/990019603780497448/1036781307818147890/setupFiles.zip)
 
 There are text files with more detailed step by step instructions inside each folder so read them first before running any files inside.
 This will include some copy and pasting of commands and for that:
