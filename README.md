@@ -7,6 +7,7 @@
     - the [msmg-toolkit textfile](https://github.com/cozykitten/effective-umbrella/blob/main/msmg-toolkit.txt) contains a list of components that can be removed
 
 after selecting all elements, go back one -> [2] start removing windows components
+
     - this will take ~3 minutes. It's important to wait until it finished removing components before continuing
     - go to ``toolkit\Mount\Install``. Now you should see a folder "1". Don't open it.
     - copy the path in the explorer address bar (smth like ``C:\toolkit\Mount\Install``)
