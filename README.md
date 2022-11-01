@@ -4,15 +4,14 @@
 </style>
 
 ## Preparation
-
-1. Booting WinPE<br/>
-   a. Shut down your pc and disconnect from the internet. Your usb drive should still be connected.<br/>
-   b. Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.<br/>
-   c. You should see your usb there, actually two times. Select it's partition 1.
-   d. After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
-   e. change the directory to I:\ with ``pushd I:``
-   f. type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
-   e. hit enter, this will run the install script
+1. Booting WinPE
+  - Shut down your pc and disconnect from the internet. Your usb drive should still be connected.
+  - Turn on your computer again and hold down ``F8`` until it shows a window asking you to select a boot device.
+  - You should see your usb there, actually two times. Select it's partition 1.
+  - After booting WinPE you'll see a terminal window that's pointing to ``X:\Windows\System32``
+  - change the directory to I:\ with ``pushd I:``
+  - type ``dism`` then use tab for autocompletion until it shows ``dism_installer.bat``
+  - hit enter, this will run the install script
 
 This will only cover the preparation and install of Windows, not possible steps such as backing up your previous installation, choosing and managing your drives.<br/>
 It is assumed that you have already covered those and are ready to install windows and wiping your target drive doesn't pose any issue for you.
