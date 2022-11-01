@@ -44,6 +44,7 @@ download [setupFiles.zip](https://github.com/cozykitten/effective-umbrella/raw/m
 
 ![](https://cdn.discordapp.com/attachments/1022177084396806154/1022185130309197854/unknown.png)
 
+Those folders and their contens are meant for later, so don't run anything now.
 There are text files with more detailed step by step instructions inside each folder so read them first before running any files inside.<br/>
 This will include some copy and pasting of commands and for that:
 
