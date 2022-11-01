@@ -119,3 +119,33 @@ Go to https://notepad-plus-plus.org/downloads/ and download the zip option, unpa
 You can rename it to something easier, notepad++ f.e. then just move it on your usb drive.
 
 
+## Get Windows
+
+### Overview
+The part of getting your Windows Image ready consists of two things.
+
+1. The downloader for windows, which offers a lot of options, the most important one being that you can choose the apps *you* want.<br/>
+A general recommended app list is included in the files provided here.
+
+2. The "toolkit" which is a utility to remove or add components to a windows image.<br/>
+A list of recommended components to remove is included as well, it's still a good idea to read that list instead of just typing it down blindly to be safe for potential changes in newer versions of the toolkit.
+
+Those two steps will result in a cleaner and smaller image which can then be installed in the next step.
+
+
+### Getting started
+1. Create a new folder on your C drive:  ``C:\windows_prep``
+    - create 2 folders inside, ``windows_prep\toolkit`` and ``windows_prep\win11``
+
+2. Go to https://uupdump.net/
+    - select Windows 11 - 22H2
+    - click the topmost "Windows 11, version 22H2" which has x64 as architecture
+    - select the language you want -> next
+    - only check windows home -> next 
+    - keep the middle radio button selected (download and convert to ISO)
+    - uncheck all checkboxes below, including "single language" -> create download package
+    - save it somewhere and extract all contents into the ``windows_prep\win11`` folder
+
+3. Go to https://msmgtoolkit.in/downloads.html
+    - click the "download toolkit" button and on the download.ru site only select the Toolkit_vx.x.x.7z and download that.
+    - extract the contents into the ``windows_prep\toolkit`` folder
