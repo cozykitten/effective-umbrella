@@ -44,7 +44,10 @@ echo The Images folder is on drive: %IMAGESDRIVE%
 echo.
 
 echo Checking Image Index
-Dism /Get-ImageInfo /imagefile:%IMAGESDRIVE%:\Images\install.wim
+dism /Get-ImageInfo /imagefile:%IMAGESDRIVE%:\Images\install.wim
+if %ERRORLEVEL% EQU 2 (
+	dism /Get-ImageInfo /imagefile:%IMAGESDRIVE%:\Images\install.esd
+)
 echo.
 
 set /p INDEX=Please enter the Index number of the desired edition: 
@@ -53,14 +56,19 @@ echo.
 
 echo Applying Image to Windows partition
 dism /Apply-Image /ImageFile:%IMAGESDRIVE%:\Images\install.wim /Index:%INDEX% /ApplyDir:W:\
+if %ERRORLEVEL% EQU 2 (
+	dism /Apply-Image /ImageFile:%IMAGESDRIVE%:\Images\install.esd /Index:%INDEX% /ApplyDir:W:\
+)
 echo.
 
 echo Copying boot files to System partition
-W:\Windows\System32\bcdboot W:\Windows /s S:
+bcdboot W:\Windows /s S: /f UEFI
 echo.
 
 del CreatePartitions.txt
 echo Installation complete. Continue to reboot.
+echo Manually boot the new installation.
+pause
 
 :eof
 exit
